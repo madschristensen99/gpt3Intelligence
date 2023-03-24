@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Madden Franchise Simulator</title>
+</head>
+<body>
+  <h1>Madden Franchise Simulator</h1>
+  <div class="container">
+<div class="draft-area">
+  <button id="start-draft">Start Draft</button>
+  <h2>Available Players</h2>
+  <ul id="available-players">
+    <!-- Available players will be listed here -->
+  </ul>
+</div>
+<div class="team-area">
+  <h2>My Team</h2>
+  <h3>Your Picks: <span id="user-pick"></span></h3>
+  <ul id="my-team">
+    <!-- Drafted players will be listed here -->
+  </ul>
+</div>
+<div class="team-area">
+  <h2>Other Teams</h2>
+  <div id="other-teams">
+    <div class="other-team">
+      <h3>Team A</h3>
+      <ul id="team-1"></ul>
+    </div>
+    <div class="other-team">
+      <h3>Team B</h3>
+      <ul id="team-2"></ul>
+    </div>
+    <div class="other-team">
+      <h3>Team C</h3>
+      <ul id="team-3"></ul>
+    </div>
+  </div>
+</div>
+<ul id="season-results"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
